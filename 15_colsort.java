@@ -3,19 +3,19 @@ public class colsort {
 
 	public static void main(String[] args) {
 		
-		Scanner sc=new Scanner(System.in);
+		Scanner s=new Scanner(System.in);
 		System.out.println("Enter no of rows and columns");
-		int row=sc.nextInt();
-		int col=sc.nextInt();
+		int row=s.nextInt();
+		int col=s.nextInt();
 		int[][] arr=new int[row][col];
 		System.out.println("Enter column to be sort");
-		int c=sc.nextInt();
+		int c=s.nextInt();
 		int temp=0;
 		System.out.println("Enter the elements of array");
 		for(int i=0;i<row;i++)
 		{
 			for(int j=0;j<col;j++)
-			   arr[i][j]=sc.nextInt();
+			   arr[i][j]=s.nextInt();
 		}
 		int k=c-1;
 		for(int r=1;r<row;r++)
